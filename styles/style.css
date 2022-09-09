@@ -14,6 +14,7 @@ White: #FFF
     font-family: Montserrat, sans-serif;
     font-size: 16px;
 }
+
 header{
     display: flex;
     position: fixed;
@@ -29,24 +30,29 @@ header img{
     padding: 10px;
     height: 50px;
 }
+
 .nav{
     justify-content: right;
 
 }
+
 .ul{
     display: flex;
     flex-flow: row wrap;
     list-style: none;
     justify-content: right;
 }
+
 .ul a{
     font-size: 1.2em;
     text-decoration: none;
     color: black;
 }
+
 .ul li{
     padding-right: 20px;
 }
+
 h1{
     font-size: 4em;
     align-items: center;
@@ -64,12 +70,16 @@ h2{
 }
 
 h3{
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 400;
     align-items: center;
-    color: white;
     text-align: center;
     padding-top: 20px;
+}
+
+h4{
+    color: #00B172;
+    font-size: 1.1em;
 }
 
 .image-background{
@@ -88,24 +98,85 @@ h3{
 
 .content{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100vw;
 }
+
 .whats-on{
+    margin-top: 15px;
     display:flex;
     text-align: center;
-}
-.specs-child{
-
-
+    align-self: center;
 }
 
 .specs {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    margin-bottom: 50px;
 }
+
+/* preguntar como puedo una vez se escalan elementos que queden alineados a uno de los childs para que las alturas sean las mismas */
+.specs-child{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width:33%;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.specs-child img{
+    width: 85px;
+}
+
+.hr-whats{
+    margin-top: 5px;
+    height: 2px;
+    width: 200px;
+    align-self: center;
+    background-color: #00B172;
+
+}
+
+.kanye{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #00B172;
+}
+
+.list{
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    color: white;
+    padding: 80px;
+
+}
+.list li{
+    list-style-type: none;
+    padding-bottom: 25px;
+}
+.list hr{
+    margin-top: 5px;
+    height: 2px;
+    width: 250px;
+    background-color: white;
+
+}
+
+.app-image{
+    display: flex;
+    width: 33%;
+    /* height: 500px; */
+    padding: 50px;
+}
+
+
+
 
 
 
