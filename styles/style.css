@@ -26,13 +26,12 @@ header{
 
 header img{
     display: flex;
-    justify-content: left;
     padding: 10px;
-    height: 50px;
+    height: 45px;
 }
 
 .nav{
-    justify-content: right;
+width: 100%;
 
 }
 
@@ -41,12 +40,17 @@ header img{
     flex-flow: row wrap;
     list-style: none;
     justify-content: right;
+    /* justify-content: right; no funciona*/
 }
 
 .ul a{
     font-size: 1.2em;
     text-decoration: none;
     color: black;
+}
+
+.ul a:hover{
+    color: #00B172;
 }
 
 .ul li{
@@ -137,7 +141,6 @@ h4{
     width: 200px;
     align-self: center;
     background-color: #00B172;
-
 }
 
 .kanye{
@@ -161,20 +164,22 @@ h4{
     padding-bottom: 25px;
 }
 .list hr{
-    margin-top: 5px;
+    margin-bottom: 55px;
     height: 2px;
     width: 250px;
     background-color: white;
-
 }
 
 .app-image{
     display: flex;
     width: 33%;
-    /* height: 500px; */
-    padding: 50px;
+    padding: 40px;
 }
 
+.app-logo{
+display: block;
+
+}
 
 
 
